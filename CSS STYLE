@@ -1,0 +1,192 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header{
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+} 
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 12px;
+    font-family: 'Poppins';
+
+}
+html{
+    scroll-behavior: smooth;
+}
+.nav-list{
+    display: flex;
+    justify-content: space-around;
+}
+.nav-list a{
+    padding: 8px;
+    text-decoration: none;
+    color: black;
+    font-family: 'karla';
+    text-transform: capitalize;
+}
+a.cta{
+    background-color: #fff;
+    border: 1px solid blue;
+    border-radius: 3px;
+    margin-left: 18px;
+}
+.cta:hover{
+    background-color: blue !important;
+    color: white;
+    border-radius: 1px;
+    transition: all .4s ease-in;
+}
+.nav-list a:hover{
+    background-color: black;
+    color: white;
+    transition: all .6s ease-out;
+}
+
+section{
+    background-image:linear-gradient(to right bottom,#23272796, #3b079bea),url("https://img.freepik.com/free-photo/3d-illustration-graphs-diagrams-yellow-isolated-background-3d-illustration-objects-3d-orange-icons-isolated-background-statistics-charts-graphs-reports_379368-351.jpg");
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Poppins';
+    text-transform:uppercase ;
+    position: relative;
+}
+
+.main-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+}
+
+.main-text h1{
+    letter-spacing: 6px;
+    font-size: 60px;
+    margin-bottom: 0;
+}
+
+.main-text h1 span{
+    color: red;
+}
+.main-text h2{
+    font-size: 44px;
+    margin-top: 0;
+}
+
+
+.abt{
+    display: flex;
+    height: 100vh;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+
+
+
+
+.topnav .search-container {
+    float: right;
+  }
+  
+  .topnav input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+  }
+  
+  .topnav .search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .topnav .search-container button:hover {
+    background: #ccc;
+  }
+  
+   
+    .topnav .search-container {
+      float: none;
+    }
+    .topnav a, .topnav input[type=text], .topnav .search-container button {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+    .topnav input[type=text] {
+      border: 1px solid #ccc;  
+    }
+  
+  .gall-cont{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+}
+.g-trend{
+    width: 90%;
+    margin: auto;
+    margin-top: 60px;
+
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  margin-top: 32px;
+  width: 370px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+  .about{
+      display: flex;
+      justify-content: space-around;
+      padding: 22px;
+      margin: 12px;
+  }
+.about-1{
+    flex-direction: row-reverse !important;
+}
+  .about p{
+      padding: 22px;
+      font-family: 'Poppins';
+      font-size: 22px;
+
+  }
